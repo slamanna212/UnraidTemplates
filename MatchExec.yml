@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>MatchExec</Name>
+  <Repository>ghcr.io/slamanna212/matchexec:latest</Repository>
+  <Registry>https://github.com/slamanna212/MatchExec/pkgs/container/matchexec</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://matchexec.com</Project>
+  <Overview>MatchExec, The complete video game tournament manager. Take the busy work out of match &amp;amp; tournament management. Automatic registration forms, alerts, scoring, and more. Send less time running the tournament and more time being a part of it.</Overview>
+  <Category>GameServers: Other: Status:Stable</Category>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/slamanna212/MatchExec/12005a8eeced5836cd88e997e0949071f194355c/public/logo.svg</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1756835727</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Config" Target="/app/app_data" Default="/mnt/user/appdata/MatchExec/config" Mode="rw" Description="" Type="Path" Display="advanced" Required="false" Mask="false">/mnt/user/appdata/MatchExec/config</Config>
+  <Config Name="Uploads" Target="/app/public/uploads" Default="/mnt/user/appdata/MatchExec/uploads" Mode="rw" Description="Used for adding custom images to matches. " Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/MatchExec/uploads</Config>
+  <TailscaleStateDir/>
+</Container>
