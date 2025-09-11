@@ -13,7 +13,7 @@
   <Category>GameServers: Other: Status:Stable</Category>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/slamanna212/MatchExec/12005a8eeced5836cd88e997e0949071f194355c/public/logo.svg</Icon>
+  <Icon>https://raw.githubusercontent.com/slamanna212/MatchExec/main/public/web-app-manifest-512x512.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
@@ -23,6 +23,8 @@
   <Requires/>
   <Config Name="Host Port for 3000" Target="3000" Default="3000" Mode="tcp" Description="Web UI Port" Type="Port" Display="always" Required="true" Mask="false">3000</Config>  
   <Config Name="Config" Target="/app/app_data" Default="/mnt/user/appdata/MatchExec/config" Mode="rw" Description="" Type="Path" Display="advanced" Required="false" Mask="false">/mnt/user/appdata/MatchExec/config</Config>
+  <Config Name="PUID" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">100</Config>
   <Config Name="Uploads" Target="/app/public/uploads" Default="/mnt/user/appdata/MatchExec/uploads" Mode="rw" Description="Used for adding custom images to matches. " Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/MatchExec/uploads</Config>
   <TailscaleStateDir/>
 </Container>
