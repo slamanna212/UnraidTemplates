@@ -21,6 +21,7 @@
   <DonateText/>
   <DonateLink/>
   <Requires/>
+  <Config Name="Host Port for 3000" Target="3000" Default="3000" Mode="tcp" Description="Web UI Port" Type="Port" Display="always" Required="true" Mask="false">3000</Config>  
   <Config Name="Config" Target="/app/app_data" Default="/mnt/user/appdata/MatchExec/config" Mode="rw" Description="" Type="Path" Display="advanced" Required="false" Mask="false">/mnt/user/appdata/MatchExec/config</Config>
   <Config Name="Uploads" Target="/app/public/uploads" Default="/mnt/user/appdata/MatchExec/uploads" Mode="rw" Description="Used for adding custom images to matches. " Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/MatchExec/uploads</Config>
   <TailscaleStateDir/>
