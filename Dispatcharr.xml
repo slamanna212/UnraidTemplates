@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>Dispatcharr</Name>
   <Repository>ghcr.io/dispatcharr/dispatcharr:latest</Repository>
-  <Registry>https://github.com/Dispatcharr/Dispatcharr/pkgs/container/dispatcharr<Registry/>
+  <Registry>https://github.com/Dispatcharr/Dispatcharr/pkgs/container/dispatcharr</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
