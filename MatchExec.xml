@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://discord.gg/gDWNNwuvCt<Support/>
   <Project>https://matchexec.com</Project>
   <Overview>MatchExec, The complete video game tournament manager. Take the busy work out of match &amp;amp; tournament management. Automatic registration forms, alerts, scoring, and more. Send less time running the tournament and more time being a part of it.</Overview>
   <Category>GameServers: Other: Status:Stable</Category>
