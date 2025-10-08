@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Dispatcharr</Name>
+  <Repository>ghcr.io/dispatcharr/dispatcharr:latest</Repository>
+  <Registry>https://github.com/Dispatcharr/Dispatcharr/pkgs/container/dispatcharr<Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://discord.gg/wfeqTRRJru</Support>
+  <Project>https://github.com/Dispatcharr/Dispatcharr/</Project>
+  <Overview>Dispatcharr is a IPTV streaming playlist (m3u m3u8) editor and proxy.  IPTV proxy application that enables users to curate complex M3U playlists, manage them, and proxy them to various applications like Emby, Plex, Jellyfin, or any other compatible streaming platform. It offers the flexibility to import an unlimited number of M3U and EPG files, supporting a wide range of streaming content. Dispatcharr delivers fast and reliable streaming across multiple operating systems. Additional features, such as robust proxying and support for multiple clients on a single backend stream, make it a comprehensive solution for today&#x2019;s streaming needs.  Proxy Streaming Engine - Stream more reliably, with fewer provider connections. Real-Time Stats Dashboard - Monitor stream health and client activity live. EPG Auto-Match - Automatically map guide data to your channels. Output Compatibility - Works with Plex, Jellyfin, Emby, ChannelsDVR and more (HDHomeRun, M3U, XMLTV).&#xD;
+&#xD;
+To use a GPU with this app, see here: https://dispatcharr.github.io/Dispatcharr-Docs/user-guide/?h=gpu#mapping-hardware</Overview>
+  <Category>MediaApp:Video</Category>
+  <WebUI>http://[IP]:[PORT:9191]</WebUI>
+  </TemplateURL>
+  <Icon>https://github.com/Dispatcharr/Dispatcharr/blob/main/frontend/src/images/logo.png?raw=true</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1759886517</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Port" Target="9191" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">9191</Config>
+  <Config Name="DB" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/dispatcharr/data</Config>
+  <Config Name="DISPATCHARR_ENV" Target="DISPATCHARR_ENV" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">aio</Config>
+  <Config Name="REDIS_HOST" Target="REDIS_HOST" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">localhost</Config>
+  <Config Name="CELERY_BROKER_URL" Target="CELERY_BROKER_URL" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">redis://localhost:6379/0</Config>
+  <Config Name="DISPATCHARR_LOG_LEVEL" Target="DISPATCHARR_LOG_LEVEL" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">warning</Config>
+  <TailscaleStateDir/>
+</Container>
