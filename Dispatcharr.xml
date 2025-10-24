@@ -29,5 +29,7 @@ To use a GPU with this app, see here: https://dispatcharr.github.io/Dispatcharr-
   <Config Name="REDIS_HOST" Target="REDIS_HOST" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">localhost</Config>
   <Config Name="CELERY_BROKER_URL" Target="CELERY_BROKER_URL" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">redis://localhost:6379/0</Config>
   <Config Name="DISPATCHARR_LOG_LEVEL" Target="DISPATCHARR_LOG_LEVEL" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">info</Config>
+  <Config Name="PUID" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
+  <Config Name="GUID" Target="GUID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
   <TailscaleStateDir/>
 </Container>
